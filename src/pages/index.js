@@ -12,9 +12,9 @@ import temanwarung from '../svg/temanwarung.png';
 
 export default () => (
   <Layout>
-    <section className="pt-20 md:pt-40">
+    <section className="pt-20 md:pt-30">
       <div className="container mx-auto px-8 lg:flex">
-        <div className="text-center lg:text-left lg:w-1/2">
+        <div className="text-center lg:text-left lg:w-1/2 mt-12">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-semibold leading-none">
             Selalu ada teman
           </h1>
@@ -52,7 +52,7 @@ export default () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Friendly</p>
+              <p className="font-semibold text-xl">Friendly-ecosystem</p>
               <p className="mt-4">
                 Komunikasi 2-arah dengan dukungan <br />
                 <span className="italic">NLP-backed Social Commerce </span>
