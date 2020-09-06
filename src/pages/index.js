@@ -31,6 +31,28 @@ export default () => (
         </div>
       </div>
     </section>
+    <SplitSection
+      id="services"
+      primarySlot={
+        <div className="lg:pr-32 xl:pr-8">
+          <h3 className="text-3xl font-thin leading-tight">Together we <span className="text-3xl font-semibold leading-tight">Trust</span></h3>
+          <p className="mt-8 text-xl font-light leading-relaxed">
+            Warung is a place that has broad market but  <span className="font-bold">remain untouched by mobile-app technology</span>
+          </p>
+          <p className="mt-2 text-xl font-light leading-relaxed">
+            Nowadays, many startups has tried to touch MSMEs by technology, however MSMEs especially &nbsp;
+            <span className="font-bold">Traditional Kiosk hasn't ready yet to adopt the mobile-app technology.</span> Common startups
+            haven't intimately engaged to Traditional Kiosk, the drawback that the churn rate is
+            extremely high.
+          </p>
+          <p className="mt-2 text-xl font-light leading-relaxed">
+            We proposed friendlier, low-risk, and high social-impact approach using &nbsp;
+            <span className="font-bold">NLP-backed Social Commerce</span>
+          </p>
+        </div>
+      }
+      secondarySlot={<SvgCharts />}
+    />
     <section id="features" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">Our Values</h2>
@@ -62,48 +84,8 @@ export default () => (
         </div>
       </div>
     </section>
-    <SplitSection
-      id="services"
-      primarySlot={
-        <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Market Analysis</h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
-            Our team of enthusiastic marketers will analyse and evaluate how your company stacks
-            against the closest competitors
-          </p>
-        </div>
-      }
-      secondarySlot={<SvgCharts />}
-    />
-    <SplitSection
-      reverseOrder
-      primarySlot={
-        <div className="lg:pl-32 xl:pl-48">
-          <h3 className="text-3xl font-semibold leading-tight">
-            Design And Plan Your Business Growth Steps
-          </h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
-            Once the market analysis process is completed our staff will search for opportunities
-            that are in reach
-          </p>
-        </div>
-      }
-      secondarySlot={<SvgCharts />}
-    />
-    <SplitSection
-      primarySlot={
-        <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">
-            Search For Performance Optimization
-          </h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
-            With all the information in place you will be presented with an action plan that your
-            company needs to follow
-          </p>
-        </div>
-      }
-      secondarySlot={<SvgCharts />}
-    />
+
+
     <section id="goal" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
         <LabelText className="text-gray-600">Capaian Kita</LabelText>
@@ -123,9 +105,7 @@ export default () => (
 
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
       <h3 className="text-5xl font-semibold">Mulai berteman?</h3>
-      <p className="mt-8 text-xl font-light">
-        Berkembang bersama teman, hanya dengan TemanWarung
-      </p>
+      <p className="mt-8 text-xl font-light">Berkembang bersama teman, hanya dengan TemanWarung</p>
       <p className="mt-8">
         <Button size="xl">Gabung Yuk!</Button>
       </p>
